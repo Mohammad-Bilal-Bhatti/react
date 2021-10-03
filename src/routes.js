@@ -23,7 +23,6 @@ import DashboardPage from "views/Dashboard/Dashboard.js";
 import UserProfile from "views/UserProfile/UserProfile.js";
 import InternetBundles from "components/Bundles/InternetBundles";
 import Form1 from "views/Form1";
-import Login from "components/Login";
 
 const dashboardRoutes = [
   {
@@ -50,15 +49,6 @@ const dashboardRoutes = [
     icon: Dashboard,
     component: Form1,
     layout: "/admin",
-    hide: true,
-  },
-  {
-    path: "/login",
-    name: "Form",
-    rtlName: "لوحة القيادة",
-    icon: Dashboard,
-    component: Login,
-    layout: "/**",
     hide: true,
   },
   {
